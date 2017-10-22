@@ -68,7 +68,7 @@ sudo ip netns exec $namespace ip addr add $addr dev $vethB
 sudo ip netns exec $namespace ip link set $vethB up
 {% endhighlight %}
 
-Then it set the other side of the veth up.
+Then it sets the other side of the veth up.
 
 {% highlight bash %}
 sudo ip link set $vethA up
