@@ -2,7 +2,7 @@
 layout: post
 title:  "Container Networking - Veth"
 date:   2017-10-14
-categories: cni namespace veth linux
+categories: cni namespace veth linux network
 ---
 
 I've been playing a lot with Kubernetes lately. After migrating some projects to it, and using it for a while, I've decided to investigate a bit of it's building blocks.
