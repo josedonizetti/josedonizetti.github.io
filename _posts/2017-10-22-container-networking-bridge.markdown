@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Container Networking - Bridge"
-date:   2017-10-14
+date:   2017-10-22
 categories: cni namespace bridge linux network
 ---
 
-In the last [post](https://josedonizetti.github.io/cni/namespace/veth/linux/network/2017/10/14/container-networking-veth.html) we spoke about networking two network namespaces using a Veth pair.  Veth pairs are simple to use, but also limited. If you want to connect multiple network namespaces or give then access to the internet through the host, you are better off using a different solution. On this post, we will explore linux bridges to connect a few network namespaces.
+In the last [post](https://josedonizetti.github.io/cni/namespace/veth/linux/network/2017/10/14/container-networking-veth.html) we spoke about networking two network namespaces using a Veth pair. Veth pairs are simple to use, but also limited. If you want to connect multiple network namespaces or give them access to the internet through the host, you are better off using a different solution. On this post, we will explore [linux bridges](https://wiki.linuxfoundation.org/networking/bridge) to connect a few network namespaces.
 
 **I'm running ubuntu xenial64 with vagrant+virtualbox**
 
